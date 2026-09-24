@@ -43,15 +43,22 @@ The following stages were completed:
 
 ## Final Results
 
-The design successfully completed the OpenROAD physical design flow.
+The design successfully completed the OpenROAD RTL-to-GDSII physical design flow using the Nangate45 platform.
 
-- Final detailed-routing DRC violations: **0**
-- Antenna net violations: **0**
-- Antenna pin violations: **0**
-- Hold violations: **0**
-- Final GDSII generated successfully
+| Metric | Result |
+|---|---:|
+| Technology | Nangate45 |
+| Synthesis Area | 155.344 µm² |
+| Total Reported Power | 20.2 µW |
+| Final Detailed-Routing DRC Violations | 0 |
+| Antenna Net Violations | 0 |
+| Antenna Pin Violations | 0 |
+| Hold Violations | 0 |
+| Final GDSII | Successfully Generated |
 
-The detailed router initially reported routing violations during optimization, which were reduced to zero by completion of detailed routing.
+The detailed router initially reported routing violations during optimization, which were reduced to **zero** by completion of detailed routing.
+
+> **Timing note:** The final report contained no register-to-register timing paths, so a reg-to-reg timing-closure metric is not reported for this design.
 
 ## Final Placement
 
