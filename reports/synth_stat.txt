@@ -1,0 +1,52 @@
+
+21. Printing statistics.
+
+=== alu4 ===
+
+        +----------------------------Count including submodules.
+        |        +-------------------Area including submodules.
+        |        |        +----------Local count, excluding submodules.
+        |        |        |        +-Local area, excluding submodules.
+        |        |        |        | 
+      124        -      124        - wires
+      135        -      135        - wire bits
+        7        -        7        - public wires
+       18        -       18        - public wire bits
+        7        -        7        - ports
+       18        -       18        - port bits
+        -        -        -        - memories
+        -        -        -        - memory bits
+        -        -        -        - processes
+      103  155.344      103  155.344 cells
+        1    1.064        1    1.064   AND2_X1
+        7    7.448        7    7.448   AOI21_X1
+        2    3.724        2    3.724   AOI21_X2
+        1     1.33        1     1.33   AOI22_X1
+        1    0.798        1    0.798   BUF_X1
+        2    2.128        2    2.128   BUF_X2
+        2    3.724        2    3.724   BUF_X4
+        5    22.61        5    22.61   DFF_X1
+        2    8.512        2    8.512   FA_X1
+       12    31.92       12    31.92   HA_X1
+       18    9.576       18    9.576   INV_X1
+        1    0.798        1    0.798   INV_X2
+        1     1.33        1     1.33   INV_X4
+        5     9.31        5     9.31   MUX2_X1
+        5     3.99        5     3.99   NAND2_X1
+        2     2.66        2     2.66   NAND2_X2
+        1    2.394        1    2.394   NAND2_X4
+        4    4.256        4    4.256   NAND3_X1
+        5     3.99        5     3.99   NOR2_X1
+        2    2.128        2    2.128   NOR3_X1
+        1     1.33        1     1.33   NOR4_X1
+       12   12.768       12   12.768   OAI21_X1
+        2    3.724        2    3.724   OAI21_X2
+        3    4.788        3    4.788   OAI221_X1
+        1     1.33        1     1.33   OAI22_X1
+        1    1.064        1    1.064   OR2_X1
+        1    1.862        1    1.862   OR4_X2
+        3    4.788        3    4.788   XOR2_X1
+
+   Chip area for module '\alu4': 155.344000
+     of which used for sequential elements: 22.610000 (14.55%)
+
