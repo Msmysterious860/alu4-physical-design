@@ -77,7 +77,7 @@ alu4-physical-design/
 │   ├── final_placement.webp.png
 │   └── final_routing.webp.png
 └── README.md
-
+```
 ## Final GDSII Layout
 
 The completed physical layout was visualized using KLayout after successful RTL-to-GDSII implementation.
